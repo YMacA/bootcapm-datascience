@@ -1,14 +1,43 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
-import numpy as np
+import numpy as np  
 
-st.write('10 Cool Beginner Python Tricks That Will Make Your Life Easier')
+st.header('10 Cool Beginner Python Tricks That Will Make Your Life Easier')
 
 
 image = Image.open('minion.jpg')
 
 st.image(image, caption='Sunrise by the mountains')
+
+st.title('1. Walrus operator')
+st.caption('Example')
+st.text('The Walrus or := operator is one of the latest additions to python 3.8. It is an assignment operator that lets you assign value to a variable within an expression like conditional statements, loops, etc.')
+
+code = '''Mylist = [1,2,3]
+if(l := len(mylist) > 2)
+print(l)'''
+st.code(code, language='python')
+
+code2 = '''Mylist = [1,2,3]
+if(l := len(mylist) > 2)
+print(l)'''
+st.code(code2, language='python')
+
+st.caption('Output')
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 st.write('st.dataframe Display a dataframe as an interactive table.')
 
