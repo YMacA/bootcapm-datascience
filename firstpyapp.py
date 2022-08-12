@@ -18,13 +18,11 @@ code = '''Mylist = [1,2,3]
 if(l := len(mylist) > 2)
 print(l)'''
 st.code(code, language='python')
-
-code2 = '''Mylist = [1,2,3]
-if(l := len(mylist) > 2)
-print(l)'''
+st.caption('Output')
+code2 = ''' 3 '''
 st.code(code2, language='python')
 
-st.caption('Output')
+
 
 
 
