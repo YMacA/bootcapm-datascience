@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
+import numpy as np
 
 st.write('10 Cool Beginner Python Tricks That Will Make Your Life Easier')
 
