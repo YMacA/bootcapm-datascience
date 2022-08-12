@@ -1,7 +1,7 @@
 import streamlit as st
-from PIL import image
+from PIL import Image
 
-print('1st web app')
+st.write('1st web app')
 
 
 txt = st.text_area('Text to analyze', '''
